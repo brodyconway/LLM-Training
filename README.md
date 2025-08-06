@@ -1,1 +1,1 @@
-# LLM-Training
+The code in this repository is meant for studying LLM performance purposes. There are multiple LLMs saved in the model folder as checkpoint-x (x being the number of sample data the LLM was trained with). The LLM was pretrained from scratch with 15,000 rows of the dataset https://huggingface.co/datasets/Open-Orca/OpenOrca/tree/main. To train another LLM using this code, simply upload a dataset in .parquet form and change the "parquet_path" and "output_dir" in train.py. To run the LLM, change the "model_path" in run_LLM.py.
